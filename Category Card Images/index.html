@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Card Images</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <ul class="sidebar-category">
+            <h1 class="title">Categories</h1>
+            <li class="category-item active" data-name="ALL">ALL</li>
+            <li class="category-item" data-name="MERC">MERC</li>
+            <li class="category-item" data-name="CHARGER">CHARGER</li>
+            <li class="category-item" data-name="FERRARI">FERRARI</li>
+            <li class="category-item" data-name="JIGULI">JIGULI</li>
+            <li class="category-item" data-name="CAMARO">CAMARO</li>
+            <li class="category-item" data-name="LAMBORGHINI">LAMBORGHINI</li>
+            <li class="category-item" data-name="MUSTANG">MUSTANG</li>
+            <li class="category-item" data-name="SPEEDOMETR">SPEEDOMETR</li>
+            <li class="category-item" data-name="WOLKSVAGEN">WOLKSVAGEN</li>
+        </ul>
+        <div class="galery">
+            <div class="content-title">
+                <i class="fa-solid fa-bars icon-menu"></i>
+                <span>Category Item Name</span>    
+                <div class="nav-items hidden">
+                    <ul class="navbar-menu">
+                        <li class="category-item active" data-name="ALL">ALL</li>
+                        <li class="category-item" data-name="MERC">MERC</li>
+                        <li class="category-item" data-name="CHARGER">CHARGER</li>
+                        <li class="category-item" data-name="FERRARI">FERRARI</li>
+                        <li class="category-item" data-name="JIGULI">JIGULI</li>
+                        <li class="category-item" data-name="CAMARO">CAMARO</li>
+                        <li class="category-item" data-name="LAMBORGHINI">LAMBORGHINI</li>
+                        <li class="category-item" data-name="MUSTANG">MUSTANG</li>
+                        <li class="category-item" data-name="SPEEDOMETR">SPEEDOMETR</li>
+                        <li class="category-item" data-name="WOLKSVAGEN">WOLKSVAGEN</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-images">
+                <div class="images" data-name="CAMARO"><span><img src="./img/photo_2023-03-19_09-00-07.jpg" alt=""></span></div>
+                <div class="images" data-name="CHARGER"><span><img src="./img/photo_2023-03-19_09-00-19.jpg" alt=""></span></div>
+                <div class="images" data-name="CHARGER"><span><img src="./img/photo_2023-03-19_09-00-24.jpg" alt=""></span></div>
+                <div class="images" data-name="WOLKSVAGEN"><span><img src="./img/photo_2023-03-19_09-00-28.jpg" alt=""></span></div>
+                <div class="images" data-name="FERRARI"><span><img src="./img/photo_2023-03-19_09-00-32.jpg" alt=""></span></div>
+                <div class="images" data-name="JIGULI"><span><img src="./img/photo_2023-03-19_09-00-37.jpg" alt=""></span></div>
+                <div class="images" data-name="LAMBORGHINI"><span><img src="./img/photo_2023-03-19_09-00-41.jpg" alt=""></span></div>
+                <div class="images" data-name="MERC"><span><img src="./img/photo_2023-03-19_09-00-48.jpg" alt=""></span></div>
+                <div class="images" data-name="MERC"><span><img src="./img/photo_2023-03-19_09-00-51.jpg" alt=""></span></div>
+                <div class="images" data-name="MERC"><span><img src="./img/photo_2023-03-19_09-00-56.jpg" alt=""></span></div>
+                <div class="images" data-name="MUSTANG"><span><img src="./img/photo_2023-03-19_09-01-01.jpg" alt=""></span></div>
+                <div class="images" data-name="MUSTANG"><span><img src="./img/photo_2023-03-19_09-01-04.jpg" alt=""></span></div>
+                <div class="images" data-name="SPEEDOMETR"><span><img src="./img/photo_2023-03-19_09-01-08.jpg" alt=""></span></div>
+                <div class="images" data-name="SPEEDOMETR"><span><img src="./img/photo_2023-03-19_09-01-20.jpg" alt=""></span></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Preview Images-->
+    <div class="preview-box">
+        <div class="details">
+            <span class="title">Image Category: <span id="name">Not defined</span></span>
+            <span class="icon fas fa-times"></span>
+        </div>
+        <div class="image-box">
+            <img src="" alt="preview" class="preview-img">
+        </div>
+    </div>
+    <div class="back"></div>
+    <script src="./js/index.js" defer></script>
+</body>
+</html>
